@@ -1,0 +1,174 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar{
+  display: flex;
+   width:80%;
+   height: 5vh;
+   margin-left: 170px;
+   margin-top: 30px;
+   position: relative;
+}
+.line{
+  width: 65px;
+  height: 2px;
+  background-color: #000;
+  padding-right: 30px;
+  margin-top: 25px;
+}
+.logo{
+  flex-basis: 40%;
+}
+.logo img{
+   padding-top: 10px;
+}
+.menu{
+  display: flex;
+
+  flex-basis: 60%;
+}
+ul li{
+  display: inline-block;
+  align-items: center;
+}
+ul li a span{
+  color: lightblue;
+  font-size: 18px;
+}
+ul li a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: #000;
+  font-size: 12px;
+}
+.icons{
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.icons img{
+  margin-left: 30px;
+}
+.container{
+  display: flex;
+}
+.left{
+  flex-basis: 50%;
+  height: 600px;
+  position: relative;
+}
+.inner{
+  margin-left: 140px;
+  margin-top: 45px;
+  width:300px;
+}
+.inner h6{color: gray; position: relative;}
+.inner h6::after{
+  content: "";
+  position: absolute;
+  left: 90px;
+  width: 65px;
+  height: 2px;
+  bottom: 1px;
+  background-color: black;
+}
+.inner img{
+  margin-left: 15px;
+} 
+.small{
+  position: relative;
+  width:400px;
+  height: 160px;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: white;
+  background-color:#02bdc4 ;
+
+}
+.small p{
+  width: 220px;
+  padding: 5px;
+}
+.small img{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+.black-line{
+  width: 150px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+}
+.black-line span{
+  height: 2px;
+  width:20px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 165px; }
+.black-line span::after{
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: 40px;
+  top: 0;
+
+}
+.line2{
+  bottom: 250px;
+  left: -50px;
+  transform: rotate(90deg);
+}
+.right{
+  position: relative;
+  flex-basis: 50%
+  height: 600px;
+}
+.right img{
+  margin-top: 45px;
+  margin-left: 45px;
+}
+.social{
+  position: absolute;
+  right:10px;
+  bottom: 15px;
+}
+.vertical{
+  border-bottom: 2px solid #000;
+  padding-bottom:5px;
+  position: absolute;
+  top: 250px;
+  left: -90px;
+  transform: rotate(-90deg);
+   margin-right: 20px;
+}
+.vertical ul li{
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
